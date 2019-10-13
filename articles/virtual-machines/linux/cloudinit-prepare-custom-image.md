@@ -33,7 +33,7 @@ Zum Installieren von cloud-init ist es erforderlich, dass Sie eine SSH-Verbindun
 ```bash
 sudo yum makecache fast
 sudo yum install -y gdisk cloud-utils-growpart
-sudo yum install - y cloud-init 
+sudo yum install -y cloud-init 
 ```
 
 Aktualisieren Sie den Abschnitt `cloud_init_modules` in `/etc/cloud/cloud.cfg` so, dass er die folgenden Module enthält:
